@@ -8,5 +8,9 @@ class SkinnyDaemonExample < Sinatra::Base
     "Your skinny daemon is up and running."
   end
 
+  post "/do-something/:great" do
+    # something great could happen here
+  end
+
 end
 
