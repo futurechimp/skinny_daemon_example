@@ -9,7 +9,7 @@ begin
     gem.description = %Q{Process daemonization with thin!}
     gem.email = "dave@netbook"
     gem.homepage = "http://github.com/futurechimp/skinny_daemon_example"
-    gem.authors = ["dave"]
+    gem.authors = ["Dave Hrycyszyn"]
     gem.add_dependency "sinatra", "=1.0.0"
     gem.add_dependency "thin"
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
