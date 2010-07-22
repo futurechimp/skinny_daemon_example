@@ -25,7 +25,10 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "bin/skinny_daemon_example",
      "lib/skinny_daemon_example.rb",
+     "lib/skinny_daemon_example/config.ru",
+     "skinny_daemon_example.gemspec",
      "test/helper.rb",
      "test/test_skinny_daemon_example.rb"
   ]
