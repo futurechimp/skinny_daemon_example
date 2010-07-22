@@ -16,5 +16,7 @@ For more info, see the blog post at http://labs.headlondon.com/2010/07/skinny-da
 
 == Copyright
 
-Copyright (c) 2010 dave. See LICENSE for details.
+Copyright (c) 2010 David Hrycyszyn. See LICENSE for details.
+
+skinny_daemon_example is a headlabs project.  See http://labs.headlondon.com for more.
 
