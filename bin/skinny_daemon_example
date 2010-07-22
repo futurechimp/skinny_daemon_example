@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+# Skinny daemon command line interface script.
+# Run <tt>skinny_daemon_example -h</tt> to get more usage.
+require File.dirname(__FILE__) + '/../lib/skinny_daemon_example'
+require 'thin'
+
+rackup_file = "#{File.dirname(__FILE__)}/../lib/skinny_daemon_example/config.ru"
+
+argv = ARGV
+argv << ["-R", rackup_file] unless ARGV.include?("-R")
+argv << ["-p", "2003"] unless ARGV.include?("-p")
+argv << ["-e", "production"] unless ARGV.include?("-e")
+Thin::Runner.new(argv.flatten).run!
+

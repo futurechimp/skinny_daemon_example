@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "skinny_daemon_example"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{An example of a skinny daemon }
+    gem.description = %Q{Process daemonization with thin!}
     gem.email = "dave@netbook"
     gem.homepage = "http://github.com/futurechimp/skinny_daemon_example"
     gem.authors = ["dave"]
@@ -51,3 +51,4 @@ Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
+
