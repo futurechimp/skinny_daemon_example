@@ -10,6 +10,8 @@ begin
     gem.email = "dave@netbook"
     gem.homepage = "http://github.com/futurechimp/skinny_daemon_example"
     gem.authors = ["dave"]
+    gem.add_dependency "sinatra", "=1.0.0"
+    gem.add_dependency "thin"
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
